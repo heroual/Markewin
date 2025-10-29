@@ -6,8 +6,8 @@ type Translations = { [key in Language]: Translation };
 export const translations: Translations = {
   en: {
     sidebarTitle: "Markewin",
-    sidebarFooter1: "AI Marketing Agent",
-    sidebarFooter2: "Powered by Gemini",
+    sidebarFooter1: "MrkeWin AI Marketing Agent Queen",
+    sidebarFooter2: "Created by Elheroual",
     keywordResearchName: "Keyword Research",
     competitorBenchmarkingName: "Competitor Benchmarking",
     leadGenerationName: "Lead Generation",
@@ -304,8 +304,8 @@ export const translations: Translations = {
   },
   fr: {
     sidebarTitle: "Markewin",
-    sidebarFooter1: "Agent Marketing IA",
-    sidebarFooter2: "Propulsé par Gemini",
+    sidebarFooter1: "MrkeWin AI Marketing Agent Queen",
+    sidebarFooter2: "Créé par Elheroual",
     keywordResearchName: "Recherche de Mots-clés",
     competitorBenchmarkingName: "Analyse Concurrentielle",
     leadGenerationName: "Génération de Leads",
