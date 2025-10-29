@@ -3,7 +3,7 @@ import { GoogleGenAI, LiveSession, LiveServerMessage, Modality, Chat } from '@go
 import { Language } from '../types';
 import { translations } from '../i18n';
 import { decode, createBlob, decodeAudioData } from '../utils/audio';
-import { MessageSquare, X, Mic, Square, Send } from 'lucide-react';
+import { MessageSquare, X, Mic, Square, Send, Bot } from 'lucide-react';
 
 interface MarkwinAgentProps {
     language: Language;
@@ -312,7 +312,7 @@ const MarkwinAgent: React.FC<MarkwinAgentProps> = ({ language }) => {
                 className="fixed bottom-6 right-6 bg-accent-600 text-white rounded-full p-4 shadow-lg hover:bg-accent-500 transition-transform transform hover:scale-110 z-50"
                 aria-label="Open AI Agent"
             >
-               {isOpen ? <X className="w-8 h-8" /> : <MessageSquare className="w-8 h-8" />}
+               {isOpen ? <X className="w-8 h-8" /> : <Bot className="w-8 h-8" />}
             </button>
 
             {isOpen && (
