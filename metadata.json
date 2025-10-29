@@ -1,0 +1,5 @@
+{
+  "name": "MarkeWin",
+  "description": "A comprehensive dashboard to manage an autonomous AI marketing agent. This interface allows users to perform tasks like keyword research, competitor analysis, lead generation, and strategic planning, visualizing the results in a modern and intuitive way.",
+  "requestFramePermissions": []
+}
